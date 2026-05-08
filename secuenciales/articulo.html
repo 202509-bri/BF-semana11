@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Articulo</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Brissa Zapata</h1>
+            <nav class="menu-chico">
+                <a href="../index.html">Inicio</a>
+                 <a href="conagua.html">conagua</a>
+                <a href="luz.html">luz</a>
+                <a href="articulo.html">articulo</a>
+                <a href="ahorro.html">ahorro</a>
+                <a href="viaticos.html">viaticos</a>
+                <a href="potencia.html">potencia</a>
+                <a href="cuadrado.html">cuadrado</a>
+                <a href="promedio.html">promedio</a>
+                <a href="vida.html">vida</a>
+                <a href="llamada.html">llamada</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <p class="instruccion">Cálculo de precio final con descuento e IVA</p>
+        
+        <div class="card">
+            <h2>Venta de Artículo</h2>
+            <p>Descuento: <strong>20%</strong> | IVA: <strong>15%</strong></p>
+
+            <div class="input-group">
+                <label>Precio original del artículo:</label>
+                <input type="number" id="precioBase">
+            </div>
+
+            <button onclick="calcularArticulo()">Calcular Totales</button>
+
+            <div class="resultado-caja">
+                <p id="resDesc">Precio con descuento: $0.00</p>
+                <h3 id="resul">Total final: $0.00</h3>
+            </div>
+            
+            <hr>
+            <a href="../index.html" class="link-volver">Regresar al Menú</a>
+        </div>
+    </main>
+
+    <script src="../scripts/functions.js"></script>
+</body>
+</html>

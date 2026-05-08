@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiempo de Vida</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Brissa Zapata</h1>
+            <nav class="menu-chico">
+                <a href="../index.html">Inicio</a>
+                 <a href="conagua.html">conagua</a>
+                <a href="luz.html">luz</a>
+                <a href="articulo.html">articulo</a>
+                <a href="ahorro.html">ahorro</a>
+                <a href="viaticos.html">viaticos</a>
+                <a href="potencia.html">potencia</a>
+                <a href="cuadrado.html">cuadrado</a>
+                <a href="promedio.html">promedio</a>
+                <a href="vida.html">vida</a>
+                <a href="llamada.html">llamada</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <p class="instruccion">Cálculo aproximado de tiempo vivido</p>
+        
+        <div class="card">
+            <h2>¿Cuánto has vivido?</h2>
+            <div class="input-group">
+                <label>Ingresa tu edad en años:</label>
+                <input type="number" id="edad">
+            </div>
+
+            <button onclick="calcularVida()">Calcular Tiempo</button><br>
+
+            <div class="resultado-caja" style="text-align: left; display: inline-block;">
+                <p id="resMeses">Meses: 0</p>
+                <p id="resSemanas">Semanas: 0</p>
+                <p id="resDias">Días: 0</p>
+                <h3 id="resul">Horas: 0</h3>
+            </div>
+            
+            <hr>
+            <a href="../index.html" class="link-volver">Regresar al Menú</a>
+        </div>
+    </main>
+
+    <script src="../scripts/functions.js"></script>
+</body>
+</html>
